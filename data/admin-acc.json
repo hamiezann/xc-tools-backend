@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "username": "xann",
+    "password": "xann123",
+    "email": "xann@xctools.com",
+    "role": "admin",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "username": "admin2", 
+    "password": "admin234",
+    "email": "admin2@gmail.com", 
+    "role": "admin",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  }
+]

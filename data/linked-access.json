@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Teraveller",
+        "icon": "Plane",
+        "link": "",
+        "description": "A travel planning tool that helps you organize your trips efficiently.",
+        "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400",
+        "status": "active",
+        "colors": "from-blue-500 to-cyan-400"
+    },
+    {
+        "id": 2,
+        "title": "ComPrayer",
+        "icon": "MapPin",
+        "link": "",
+        "description": "Find nearby mosques and get accurate prayer times for your location.",
+        "image": "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400",
+        "status": "coming-soon",
+        "colors": "from-emerald-500 to-teal-400"
+    },
+    {
+        "id": 3,
+        "title": "Time Ticker",
+        "icon": "Clock",
+        "link": "",
+        "description": "What time is where?",
+        "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400",
+        "status": "coming-soon",
+        "colors": "from-violet-500 to-purple-400"
+    },
+    {
+        "id": 4,
+        "title": "My Portfolio",
+        "icon": "User",
+        "link": "/my-portfolio",
+        "description": "My career so far...",
+        "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400",
+        "status": "active",
+        "colors": "from-purple-500 to-pink-400"
+    }
+]

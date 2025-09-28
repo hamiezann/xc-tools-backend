@@ -1,0 +1,40 @@
+[
+    {
+        "title": "My Portfolio",
+        "description": "A personal portfolio website showcasing my projects and skills.",
+        "about1": " With one year of working experience in frontend development and several freelancing projects, I specialize in creating user-centered solutions that bridge the gap between aesthetics and functionality.",
+        "about2": " I believe in the power of simplicity and attention to detail to create experiences that not only look beautiful but also solve real problems.",
+        "image": "/portfolio-image.png",
+        "tags": ["HTML", "CSS", "JavaScript", "React"],
+        "source": "",
+        "skills": ["Web Development", "UI/UX Design"],
+        "stacks": ["ReactJS", "AngularJS", "Laravel", "Flutter", "Tailwind CSS", "NodeJS"],
+        "backgroundColor": "from-pink-300 to-blue-500",
+        "status": "active",
+        "email" : "mhamiezan24@gmail.com",
+        "currentJob": "Frontend Developer at FTCS Sdn Bhd",
+        "servicesList": [
+            {   "id": 1,
+                "title": "Frontend Development",
+                "description": "Building responsive and interactive user interfaces using modern frontend technologies."
+            },
+            {
+                "id": 2,
+                "title": "Mobile App Development",
+                "description": "Creating cross-platform mobile applications with Flutter for both iOS and Android."
+            },
+            {   "id": 3,
+                "title": "Backend Development",
+                "description": "Developing robust backend systems and APIs using NodeJS and Laravel."
+            },
+            {
+                "id": 4,
+                "title": "API Development & Integration",
+                "description": "Designing and integrating RESTful APIs to connect frontend applications with backend services."
+            }
+        ],
+        "github":  "https://github.com/hamiezann",
+        "linkedin": "https://linkedin.com/in/muhammad-hamiezan-007b0a190"
+
+    }
+]
