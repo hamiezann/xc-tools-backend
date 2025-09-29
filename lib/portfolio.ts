@@ -12,6 +12,15 @@ export interface Portfolio {
   stacks: string[];
   services: string[];
   backgroundColor: string;
+  projects: {
+    id: number;
+    title: string;
+    description: string;
+    image: { src: string; desc: string }[] | string;
+    tags: string[];
+    features: string[];
+    source: string;
+  }[];
 }
 
 export async function getPortfolio(): Promise<Portfolio[]> {

@@ -1,40 +1,129 @@
 [
-    {
-        "title": "My Portfolio",
-        "description": "A personal portfolio website showcasing my projects and skills.",
-        "about1": " With one year of working experience in frontend development and several freelancing projects, I specialize in creating user-centered solutions that bridge the gap between aesthetics and functionality.",
-        "about2": " I believe in the power of simplicity and attention to detail to create experiences that not only look beautiful but also solve real problems.",
-        "image": "/portfolio-image.png",
-        "tags": ["HTML", "CSS", "JavaScript", "React"],
-        "source": "",
-        "skills": ["Web Development", "UI/UX Design"],
-        "stacks": ["ReactJS", "AngularJS", "Laravel", "Flutter", "Tailwind CSS", "NodeJS"],
-        "backgroundColor": "from-pink-300 to-blue-500",
-        "status": "active",
-        "email" : "mhamiezan24@gmail.com",
-        "currentJob": "Frontend Developer at FTCS Sdn Bhd",
-        "servicesList": [
-            {   "id": 1,
-                "title": "Frontend Development",
-                "description": "Building responsive and interactive user interfaces using modern frontend technologies."
-            },
-            {
-                "id": 2,
-                "title": "Mobile App Development",
-                "description": "Creating cross-platform mobile applications with Flutter for both iOS and Android."
-            },
-            {   "id": 3,
-                "title": "Backend Development",
-                "description": "Developing robust backend systems and APIs using NodeJS and Laravel."
-            },
-            {
-                "id": 4,
-                "title": "API Development & Integration",
-                "description": "Designing and integrating RESTful APIs to connect frontend applications with backend services."
-            }
+  {
+    "title": "My Portfolio",
+    "description": "A personal portfolio website showcasing my projects and skills.",
+    "about1": " With one year of working experience in frontend development and several freelancing projects, I specialize in creating user-centered solutions that bridge the gap between aesthetics and functionality.",
+    "about2": " I believe in the power of simplicity and attention to detail to create experiences that not only look beautiful but also solve real problems.",
+    "image": "/portfolio-image.png",
+    "tags": ["HTML", "CSS", "JavaScript", "React"],
+    "source": "",
+    "skills": ["Web Development", "UI/UX Design"],
+    "stacks": [
+      "ReactJS",
+      "AngularJS",
+      "Laravel",
+      "Flutter",
+      "Tailwind CSS",
+      "NodeJS"
+    ],
+    "backgroundColor": "from-pink-300 to-blue-500",
+    "status": "active",
+    "email": "mhamiezan24@gmail.com",
+    "currentJob": "Frontend Developer at FTCS Sdn Bhd",
+    "servicesList": [
+      {
+        "id": 1,
+        "title": "Frontend Development",
+        "description": "Building responsive and interactive user interfaces using modern frontend technologies."
+      },
+      {
+        "id": 2,
+        "title": "Mobile App Development",
+        "description": "Creating cross-platform mobile applications with Flutter for both iOS and Android."
+      },
+      {
+        "id": 3,
+        "title": "Backend Development",
+        "description": "Developing robust backend systems and APIs using NodeJS and Laravel."
+      },
+      {
+        "id": 4,
+        "title": "API Development & Integration",
+        "description": "Designing and integrating RESTful APIs to connect frontend applications with backend services."
+      }
+    ],
+    "github": "https://github.com/hamiezann",
+    "linkedin": "https://linkedin.com/in/muhammad-hamiezan-007b0a190",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Nash Cafe Web Application",
+        "description": "Designed and developed a café ordering system website for administrators, staff, and customers with Stripe payment integration. Built the web application using the Laravel framework and MySQL database. Integrated Google Maps API to help users locate and navigate to nearby branches.",
+        "image": [
+          {
+            "src": "/project-image/home-nash.png",
+            "desc": "Nash Web Home Page"
+          },
+          {
+            "src": "/project-image/menu-nash.png",
+            "desc": "Nash Web Menu Page"
+          },
+          {
+            "src": "/project-image/map-nash.jpg",
+            "desc": "Nash Web Find Nearby Page"
+          }
         ],
-        "github":  "https://github.com/hamiezann",
-        "linkedin": "https://linkedin.com/in/muhammad-hamiezan-007b0a190"
-
-    }
+        "tags": ["Laravel", "Php", "MySQL", "Stripe API", "Google Maps API"],
+        "features": [
+          "Café ordering system for admins, staff, and customers",
+          "Integrated Stripe payment for easy checkout",
+          "Google Maps API for finding nearby locations",
+          "Admin panel for managing menu items, orders, and customer details"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Nash Cafe Mobile Application",
+        "description": "Designed and developed a cafe ordering system mobile application for administrators and customers with PayPal payment integration. Developed Android application using Flutter framework and created a separate backend API using Laravel to support efficient system operations.",
+        "image": [
+          {
+            "src": "/project-image/nash-home.jpg",
+            "desc": "Nash Mobile Admin Homepage"
+          },
+          {
+            "src": "/project-image/nash-list.jpg",
+            "desc": "Nash Mobile Admin Manage Product Page"
+          },
+          {
+            "src": "/project-image/nash-order.jpg",
+            "desc": "Nash Mobile Admin Manage Order Page"
+          }
+        ],
+        "features": [
+          "Mobile app for café ordering with PayPal integration",
+          "Admin panel for managing orders, products, and customers",
+          "Backend API built with Laravel to support the mobile app",
+          "Flutter-based Android app for cross-platform compatibility"
+        ],
+        "tags": ["Flutter", "Laravel", "PayPal API", "Dart", "MySQL"]
+      },
+      {
+        "id": 3,
+        "title": "Final Year Project: RGreement",
+        "description": "Designed and developed a comprehensive rental house finder web application facilitating searching, signing, and paying deposits through blockchain. Built the frontend with React.js, backend with Laravel API, and implemented smart contracts using Solidity.",
+        "image": [
+          {
+            "src": "/project-image/rgreement.png",
+            "desc": "RGreement UI Collections"
+          }
+        ],
+        "features": [
+          "Blockchain-based rental contract signing and deposit payments",
+          "React.js frontend for dynamic user experience",
+          "Laravel API backend for secure data handling",
+          "Smart contracts written in Solidity for contract automation"
+        ],
+        "tags": ["React", "Ethereum", "Solidity", "Laravel", "MySQL"],
+        "source": "https://youtu.be/3qSH-nq02bw"
+      },
+      {
+        "id": 4,
+        "title": "XC TOOLS",
+        "description": "Cloud utility tools for my own personal use, including travel planner, mosque tracker and others. Built with React and a playground for me to learn Tailwind CSS and Next.js.",
+        "image": "/project-image/xct-1.png",
+        "tags": ["React", "Tailwind CSS", "Next.js"],
+        "source": "https://xc-tools.vercel.app/"
+      }
+    ]
+  }
 ]
