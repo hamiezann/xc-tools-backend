@@ -10,7 +10,8 @@ export function middleware(req: NextRequest) {
       headers: {
         "Access-Control-Allow-Credentials": "true",
         // "Access-Control-Allow-Origin": "http://localhost:5173", // your frontend
-        "Access-Control-Allow-Origin": "https://xc-tools.vercel.app", // your frontend
+        // "Access-Control-Allow-Origin": "https://xc-tools.vercel.app", // your frontend
+        "Access-Control-Allow-Origin": "https://xc-tools.onrender.com", // your frontend
         "Access-Control-Allow-Methods": "GET,DELETE,PATCH,POST,PUT,OPTIONS",
         "Access-Control-Allow-Headers":
           "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version",
@@ -22,7 +23,8 @@ export function middleware(req: NextRequest) {
   const res = NextResponse.next();
   res.headers.set("Access-Control-Allow-Credentials", "true");
   // res.headers.set("Access-Control-Allow-Origin", "http://localhost:5173");
-  res.headers.set("Access-Control-Allow-Origin", "https://xc-tools.vercel.app");
+  // res.headers.set("Access-Control-Allow-Origin", "https://xc-tools.vercel.app");
+  res.headers.set("Access-Control-Allow-Origin", "https://xc-tools.onrender.com");
   res.headers.set(
     "Access-Control-Allow-Methods",
     "GET,DELETE,PATCH,POST,PUT,OPTIONS"
