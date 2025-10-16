@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
           {
             key: "Access-Control-Allow-Origin",
             // value: "http://localhost:5173",
-            value: "https://xc-tools.vercel.app",
+            value: "https://xc-tools.onrender.com",
           }, // Vite default port
           {
             key: "Access-Control-Allow-Methods",
