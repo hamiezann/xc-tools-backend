@@ -38,6 +38,14 @@ export function middleware(req: NextRequest) {
 }
 
 // 👇 This ensures the middleware only runs on your API routes
+// export const config = {
+//   matcher: "/api/:path*",
+// };
+
 export const config = {
-  matcher: "/api/:path*",
+  matcher: [
+    "/api/:path*", // include all api routes
+    "/(.*)", // include all pages (for safety)
+  ],
 };
+
